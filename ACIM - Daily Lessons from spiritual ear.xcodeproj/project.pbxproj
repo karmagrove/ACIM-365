@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24C8EF4A15CE09C400EE6873 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C8EF4915CE09C400EE6873 /* UIKit.framework */; };
+		24C8EF4C15CE09C400EE6873 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C8EF4B15CE09C400EE6873 /* Foundation.framework */; };
+		24C8EF4E15CE09C400EE6873 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C8EF4D15CE09C400EE6873 /* CoreGraphics.framework */; };
+		24C8EF5415CE09C400EE6873 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24C8EF5215CE09C400EE6873 /* InfoPlist.strings */; };
+		24C8EF5615CE09C400EE6873 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C8EF5515CE09C400EE6873 /* main.m */; };
+		24C8EF5A15CE09C400EE6873 /* CalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C8EF5915CE09C400EE6873 /* CalculatorAppDelegate.m */; };
+		24C8EF5D15CE09C400EE6873 /* CalculatorRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C8EF5C15CE09C400EE6873 /* CalculatorRootViewController.m */; };
+		24C8EF6015CE09C400EE6873 /* CalculatorDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C8EF5F15CE09C400EE6873 /* CalculatorDataViewController.m */; };
+		24C8EF6315CE09C400EE6873 /* CalculatorModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C8EF6215CE09C400EE6873 /* CalculatorModelController.m */; };
+		24C8EF6615CE09C400EE6873 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C8EF6415CE09C400EE6873 /* MainStoryboard_iPhone.storyboard */; };
+		24C8EF6915CE09C400EE6873 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C8EF6715CE09C400EE6873 /* MainStoryboard_iPad.storyboard */; };
+		24C8EF7115CE09C400EE6873 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C8EF7015CE09C400EE6873 /* SenTestingKit.framework */; };
+		24C8EF7215CE09C400EE6873 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C8EF4915CE09C400EE6873 /* UIKit.framework */; };
+		24C8EF7315CE09C400EE6873 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C8EF4B15CE09C400EE6873 /* Foundation.framework */; };
+		24C8EF7B15CE09C400EE6873 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24C8EF7915CE09C400EE6873 /* InfoPlist.strings */; };
+		24C8EF7E15CE09C400EE6873 /* ACIM___Daily_Lessons_from_spiritual_earTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C8EF7D15CE09C400EE6873 /* ACIM___Daily_Lessons_from_spiritual_earTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24C8EF7415CE09C400EE6873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24C8EF3C15CE09C300EE6873 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24C8EF4415CE09C300EE6873;
+			remoteInfo = "ACIM - Daily Lessons from spiritual ear";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24C8EF4515CE09C400EE6873 /* ACIM - Daily Lessons from spiritual ear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ACIM - Daily Lessons from spiritual ear.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C8EF4915CE09C400EE6873 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		24C8EF4B15CE09C400EE6873 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24C8EF4D15CE09C400EE6873 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		24C8EF5115CE09C400EE6873 /* ACIM - Daily Lessons from spiritual ear-Info.plist */ = {isa = PBXFileReference; path = "ACIM - Daily Lessons from spiritual ear-Info.plist"; sourceTree = "<group>"; };
+		24C8EF5315CE09C400EE6873 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24C8EF5515CE09C400EE6873 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24C8EF5715CE09C400EE6873 /* ACIM - Daily Lessons from spiritual ear-Prefix.pch */ = {isa = PBXFileReference; path = "ACIM - Daily Lessons from spiritual ear-Prefix.pch"; sourceTree = "<group>"; };
+		24C8EF5815CE09C400EE6873 /* CalculatorAppDelegate.h */ = {isa = PBXFileReference; path = CalculatorAppDelegate.h; sourceTree = "<group>"; };
+		24C8EF5915CE09C400EE6873 /* CalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorAppDelegate.m; sourceTree = "<group>"; };
+		24C8EF5B15CE09C400EE6873 /* CalculatorRootViewController.h */ = {isa = PBXFileReference; path = CalculatorRootViewController.h; sourceTree = "<group>"; };
+		24C8EF5C15CE09C400EE6873 /* CalculatorRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorRootViewController.m; sourceTree = "<group>"; };
+		24C8EF5E15CE09C400EE6873 /* CalculatorDataViewController.h */ = {isa = PBXFileReference; path = CalculatorDataViewController.h; sourceTree = "<group>"; };
+		24C8EF5F15CE09C400EE6873 /* CalculatorDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorDataViewController.m; sourceTree = "<group>"; };
+		24C8EF6115CE09C400EE6873 /* CalculatorModelController.h */ = {isa = PBXFileReference; path = CalculatorModelController.h; sourceTree = "<group>"; };
+		24C8EF6215CE09C400EE6873 /* CalculatorModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorModelController.m; sourceTree = "<group>"; };
+		24C8EF6515CE09C400EE6873 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		24C8EF6815CE09C400EE6873 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		24C8EF6F15CE09C400EE6873 /* ACIM - Daily Lessons from spiritual earTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ACIM - Daily Lessons from spiritual earTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C8EF7015CE09C400EE6873 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		24C8EF7815CE09C400EE6873 /* ACIM - Daily Lessons from spiritual earTests-Info.plist */ = {isa = PBXFileReference; path = "ACIM - Daily Lessons from spiritual earTests-Info.plist"; sourceTree = "<group>"; };
+		24C8EF7A15CE09C400EE6873 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24C8EF7C15CE09C400EE6873 /* ACIM___Daily_Lessons_from_spiritual_earTests.h */ = {isa = PBXFileReference; path = "ACIM___Daily_Lessons_from_spiritual_earTests.h"; sourceTree = "<group>"; };
+		24C8EF7D15CE09C400EE6873 /* ACIM___Daily_Lessons_from_spiritual_earTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ACIM___Daily_Lessons_from_spiritual_earTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24C8EF4215CE09C300EE6873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C8EF4A15CE09C400EE6873 /* UIKit.framework in Frameworks */,
+				24C8EF4C15CE09C400EE6873 /* Foundation.framework in Frameworks */,
+				24C8EF4E15CE09C400EE6873 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C8EF6B15CE09C400EE6873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C8EF7115CE09C400EE6873 /* SenTestingKit.framework in Frameworks */,
+				24C8EF7215CE09C400EE6873 /* UIKit.framework in Frameworks */,
+				24C8EF7315CE09C400EE6873 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24C8EF3A15CE09C300EE6873 = {
+			isa = PBXGroup;
+			children = (
+				24C8EF4F15CE09C400EE6873 /* ACIM - Daily Lessons from spiritual ear */,
+				24C8EF7615CE09C400EE6873 /* ACIM - Daily Lessons from spiritual earTests */,
+				24C8EF4815CE09C400EE6873 /* Frameworks */,
+				24C8EF4615CE09C400EE6873 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24C8EF4615CE09C400EE6873 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24C8EF4515CE09C400EE6873 /* ACIM - Daily Lessons from spiritual ear.app */,
+				24C8EF6F15CE09C400EE6873 /* ACIM - Daily Lessons from spiritual earTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24C8EF4815CE09C400EE6873 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24C8EF4915CE09C400EE6873 /* UIKit.framework */,
+				24C8EF4B15CE09C400EE6873 /* Foundation.framework */,
+				24C8EF4D15CE09C400EE6873 /* CoreGraphics.framework */,
+				24C8EF7015CE09C400EE6873 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24C8EF4F15CE09C400EE6873 /* ACIM - Daily Lessons from spiritual ear */ = {
+			isa = PBXGroup;
+			children = (
+				24C8EF5815CE09C400EE6873 /* CalculatorAppDelegate.h */,
+				24C8EF5915CE09C400EE6873 /* CalculatorAppDelegate.m */,
+				24C8EF5B15CE09C400EE6873 /* CalculatorRootViewController.h */,
+				24C8EF5C15CE09C400EE6873 /* CalculatorRootViewController.m */,
+				24C8EF5E15CE09C400EE6873 /* CalculatorDataViewController.h */,
+				24C8EF5F15CE09C400EE6873 /* CalculatorDataViewController.m */,
+				24C8EF6115CE09C400EE6873 /* CalculatorModelController.h */,
+				24C8EF6215CE09C400EE6873 /* CalculatorModelController.m */,
+				24C8EF6415CE09C400EE6873 /* MainStoryboard_iPhone.storyboard */,
+				24C8EF6715CE09C400EE6873 /* MainStoryboard_iPad.storyboard */,
+				24C8EF5015CE09C400EE6873 /* Supporting Files */,
+			);
+			path = "ACIM - Daily Lessons from spiritual ear";
+			sourceTree = "<group>";
+		};
+		24C8EF5015CE09C400EE6873 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24C8EF5115CE09C400EE6873 /* ACIM - Daily Lessons from spiritual ear-Info.plist */,
+				24C8EF5215CE09C400EE6873 /* InfoPlist.strings */,
+				24C8EF5515CE09C400EE6873 /* main.m */,
+				24C8EF5715CE09C400EE6873 /* ACIM - Daily Lessons from spiritual ear-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24C8EF7615CE09C400EE6873 /* ACIM - Daily Lessons from spiritual earTests */ = {
+			isa = PBXGroup;
+			children = (
+				24C8EF7C15CE09C400EE6873 /* ACIM___Daily_Lessons_from_spiritual_earTests.h */,
+				24C8EF7D15CE09C400EE6873 /* ACIM___Daily_Lessons_from_spiritual_earTests.m */,
+				24C8EF7715CE09C400EE6873 /* Supporting Files */,
+			);
+			path = "ACIM - Daily Lessons from spiritual earTests";
+			sourceTree = "<group>";
+		};
+		24C8EF7715CE09C400EE6873 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24C8EF7815CE09C400EE6873 /* ACIM - Daily Lessons from spiritual earTests-Info.plist */,
+				24C8EF7915CE09C400EE6873 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24C8EF4415CE09C300EE6873 /* ACIM - Daily Lessons from spiritual ear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C8EF8115CE09C400EE6873 /* Build configuration list for PBXNativeTarget "ACIM - Daily Lessons from spiritual ear" */;
+			buildPhases = (
+				24C8EF4115CE09C300EE6873 /* Sources */,
+				24C8EF4215CE09C300EE6873 /* Frameworks */,
+				24C8EF4315CE09C300EE6873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ACIM - Daily Lessons from spiritual ear";
+			productName = "ACIM - Daily Lessons from spiritual ear";
+			productReference = 24C8EF4515CE09C400EE6873 /* ACIM - Daily Lessons from spiritual ear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24C8EF6E15CE09C400EE6873 /* ACIM - Daily Lessons from spiritual earTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C8EF8415CE09C400EE6873 /* Build configuration list for PBXNativeTarget "ACIM - Daily Lessons from spiritual earTests" */;
+			buildPhases = (
+				24C8EF6A15CE09C400EE6873 /* Sources */,
+				24C8EF6B15CE09C400EE6873 /* Frameworks */,
+				24C8EF6C15CE09C400EE6873 /* Resources */,
+				24C8EF6D15CE09C400EE6873 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24C8EF7515CE09C400EE6873 /* PBXTargetDependency */,
+			);
+			name = "ACIM - Daily Lessons from spiritual earTests";
+			productName = "ACIM - Daily Lessons from spiritual earTests";
+			productReference = 24C8EF6F15CE09C400EE6873 /* ACIM - Daily Lessons from spiritual earTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24C8EF3C15CE09C300EE6873 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 24C8EF3F15CE09C300EE6873 /* Build configuration list for PBXProject "ACIM - Daily Lessons from spiritual ear" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24C8EF3A15CE09C300EE6873;
+			productRefGroup = 24C8EF4615CE09C400EE6873 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24C8EF4415CE09C300EE6873 /* ACIM - Daily Lessons from spiritual ear */,
+				24C8EF6E15CE09C400EE6873 /* ACIM - Daily Lessons from spiritual earTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24C8EF4315CE09C300EE6873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C8EF5415CE09C400EE6873 /* InfoPlist.strings in Resources */,
+				24C8EF6615CE09C400EE6873 /* MainStoryboard_iPhone.storyboard in Resources */,
+				24C8EF6915CE09C400EE6873 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C8EF6C15CE09C400EE6873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C8EF7B15CE09C400EE6873 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24C8EF6D15CE09C400EE6873 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24C8EF4115CE09C300EE6873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C8EF5615CE09C400EE6873 /* main.m in Sources */,
+				24C8EF5A15CE09C400EE6873 /* CalculatorAppDelegate.m in Sources */,
+				24C8EF5D15CE09C400EE6873 /* CalculatorRootViewController.m in Sources */,
+				24C8EF6015CE09C400EE6873 /* CalculatorDataViewController.m in Sources */,
+				24C8EF6315CE09C400EE6873 /* CalculatorModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C8EF6A15CE09C400EE6873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C8EF7E15CE09C400EE6873 /* ACIM___Daily_Lessons_from_spiritual_earTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24C8EF7515CE09C400EE6873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24C8EF4415CE09C300EE6873 /* ACIM - Daily Lessons from spiritual ear */;
+			targetProxy = 24C8EF7415CE09C400EE6873 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24C8EF5215CE09C400EE6873 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24C8EF5315CE09C400EE6873 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		24C8EF6415CE09C400EE6873 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24C8EF6515CE09C400EE6873 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		24C8EF6715CE09C400EE6873 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24C8EF6815CE09C400EE6873 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		24C8EF7915CE09C400EE6873 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24C8EF7A15CE09C400EE6873 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24C8EF7F15CE09C400EE6873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24C8EF8015CE09C400EE6873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24C8EF8215CE09C400EE6873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACIM - Daily Lessons from spiritual ear/ACIM - Daily Lessons from spiritual ear-Prefix.pch";
+				INFOPLIST_FILE = "ACIM - Daily Lessons from spiritual ear/ACIM - Daily Lessons from spiritual ear-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		24C8EF8315CE09C400EE6873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACIM - Daily Lessons from spiritual ear/ACIM - Daily Lessons from spiritual ear-Prefix.pch";
+				INFOPLIST_FILE = "ACIM - Daily Lessons from spiritual ear/ACIM - Daily Lessons from spiritual ear-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		24C8EF8515CE09C400EE6873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ACIM - Daily Lessons from spiritual ear.app/ACIM - Daily Lessons from spiritual ear";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACIM - Daily Lessons from spiritual ear/ACIM - Daily Lessons from spiritual ear-Prefix.pch";
+				INFOPLIST_FILE = "ACIM - Daily Lessons from spiritual earTests/ACIM - Daily Lessons from spiritual earTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		24C8EF8615CE09C400EE6873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ACIM - Daily Lessons from spiritual ear.app/ACIM - Daily Lessons from spiritual ear";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACIM - Daily Lessons from spiritual ear/ACIM - Daily Lessons from spiritual ear-Prefix.pch";
+				INFOPLIST_FILE = "ACIM - Daily Lessons from spiritual earTests/ACIM - Daily Lessons from spiritual earTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24C8EF3F15CE09C300EE6873 /* Build configuration list for PBXProject "ACIM - Daily Lessons from spiritual ear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C8EF7F15CE09C400EE6873 /* Debug */,
+				24C8EF8015CE09C400EE6873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C8EF8115CE09C400EE6873 /* Build configuration list for PBXNativeTarget "ACIM - Daily Lessons from spiritual ear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C8EF8215CE09C400EE6873 /* Debug */,
+				24C8EF8315CE09C400EE6873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24C8EF8415CE09C400EE6873 /* Build configuration list for PBXNativeTarget "ACIM - Daily Lessons from spiritual earTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C8EF8515CE09C400EE6873 /* Debug */,
+				24C8EF8615CE09C400EE6873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24C8EF3C15CE09C300EE6873 /* Project object */;
+}
