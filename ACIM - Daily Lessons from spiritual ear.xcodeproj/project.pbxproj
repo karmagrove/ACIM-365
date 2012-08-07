@@ -40,25 +40,25 @@
 		24C8EF4915CE09C400EE6873 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		24C8EF4B15CE09C400EE6873 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24C8EF4D15CE09C400EE6873 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		24C8EF5115CE09C400EE6873 /* ACIM - Daily Lessons from spiritual ear-Info.plist */ = {isa = PBXFileReference; path = "ACIM - Daily Lessons from spiritual ear-Info.plist"; sourceTree = "<group>"; };
+		24C8EF5115CE09C400EE6873 /* ACIM - Daily Lessons from spiritual ear-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ACIM - Daily Lessons from spiritual ear-Info.plist"; sourceTree = "<group>"; };
 		24C8EF5315CE09C400EE6873 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24C8EF5515CE09C400EE6873 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		24C8EF5715CE09C400EE6873 /* ACIM - Daily Lessons from spiritual ear-Prefix.pch */ = {isa = PBXFileReference; path = "ACIM - Daily Lessons from spiritual ear-Prefix.pch"; sourceTree = "<group>"; };
-		24C8EF5815CE09C400EE6873 /* CalculatorAppDelegate.h */ = {isa = PBXFileReference; path = CalculatorAppDelegate.h; sourceTree = "<group>"; };
+		24C8EF5715CE09C400EE6873 /* ACIM - Daily Lessons from spiritual ear-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACIM - Daily Lessons from spiritual ear-Prefix.pch"; sourceTree = "<group>"; };
+		24C8EF5815CE09C400EE6873 /* CalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorAppDelegate.h; sourceTree = "<group>"; };
 		24C8EF5915CE09C400EE6873 /* CalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorAppDelegate.m; sourceTree = "<group>"; };
-		24C8EF5B15CE09C400EE6873 /* CalculatorRootViewController.h */ = {isa = PBXFileReference; path = CalculatorRootViewController.h; sourceTree = "<group>"; };
+		24C8EF5B15CE09C400EE6873 /* CalculatorRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorRootViewController.h; sourceTree = "<group>"; };
 		24C8EF5C15CE09C400EE6873 /* CalculatorRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorRootViewController.m; sourceTree = "<group>"; };
-		24C8EF5E15CE09C400EE6873 /* CalculatorDataViewController.h */ = {isa = PBXFileReference; path = CalculatorDataViewController.h; sourceTree = "<group>"; };
+		24C8EF5E15CE09C400EE6873 /* CalculatorDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorDataViewController.h; sourceTree = "<group>"; };
 		24C8EF5F15CE09C400EE6873 /* CalculatorDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorDataViewController.m; sourceTree = "<group>"; };
-		24C8EF6115CE09C400EE6873 /* CalculatorModelController.h */ = {isa = PBXFileReference; path = CalculatorModelController.h; sourceTree = "<group>"; };
+		24C8EF6115CE09C400EE6873 /* CalculatorModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorModelController.h; sourceTree = "<group>"; };
 		24C8EF6215CE09C400EE6873 /* CalculatorModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorModelController.m; sourceTree = "<group>"; };
 		24C8EF6515CE09C400EE6873 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		24C8EF6815CE09C400EE6873 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		24C8EF6F15CE09C400EE6873 /* ACIM - Daily Lessons from spiritual earTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ACIM - Daily Lessons from spiritual earTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C8EF7015CE09C400EE6873 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		24C8EF7815CE09C400EE6873 /* ACIM - Daily Lessons from spiritual earTests-Info.plist */ = {isa = PBXFileReference; path = "ACIM - Daily Lessons from spiritual earTests-Info.plist"; sourceTree = "<group>"; };
+		24C8EF7815CE09C400EE6873 /* ACIM - Daily Lessons from spiritual earTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ACIM - Daily Lessons from spiritual earTests-Info.plist"; sourceTree = "<group>"; };
 		24C8EF7A15CE09C400EE6873 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		24C8EF7C15CE09C400EE6873 /* ACIM___Daily_Lessons_from_spiritual_earTests.h */ = {isa = PBXFileReference; path = "ACIM___Daily_Lessons_from_spiritual_earTests.h"; sourceTree = "<group>"; };
+		24C8EF7C15CE09C400EE6873 /* ACIM___Daily_Lessons_from_spiritual_earTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACIM___Daily_Lessons_from_spiritual_earTests.h"; sourceTree = "<group>"; };
 		24C8EF7D15CE09C400EE6873 /* ACIM___Daily_Lessons_from_spiritual_earTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ACIM___Daily_Lessons_from_spiritual_earTests.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
