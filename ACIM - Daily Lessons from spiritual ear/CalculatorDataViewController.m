@@ -12,6 +12,7 @@
 
 @synthesize dataLabel = _dataLabel;
 @synthesize dataObject = _dataObject;
+@synthesize dataDaily = _dataDaily;
 
 - (void)didReceiveMemoryWarning
 {
@@ -38,6 +39,7 @@
 {
     [super viewWillAppear:animated];
     self.dataLabel.text = [self.dataObject description];
+    self.dataDaily.text = [self.dataObject description];
 }
 
 - (void)viewDidAppear:(BOOL)animated

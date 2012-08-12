@@ -53,6 +53,7 @@
         <class className="CalculatorDataViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CalculatorDataViewController.h"/>
             <relationships>
+                <relationship kind="outlet" name="dataDaily" candidateClass="UILayoutContainerView"/>
                 <relationship kind="outlet" name="dataLabel" candidateClass="UILabel"/>
             </relationships>
         </class>

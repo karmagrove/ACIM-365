@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24DDF32E15D86999004370DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DDF32D15D86999004370DF /* UIKit.framework */; };
+		24DDF33015D86999004370DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DDF32F15D86999004370DF /* Foundation.framework */; };
+		24DDF33215D86999004370DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DDF33115D86999004370DF /* CoreGraphics.framework */; };
+		24DDF33415D86999004370DF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DDF33315D86999004370DF /* CoreData.framework */; };
+		24DDF33A15D86999004370DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24DDF33815D86999004370DF /* InfoPlist.strings */; };
+		24DDF33C15D86999004370DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DDF33B15D86999004370DF /* main.m */; };
+		24DDF34015D86999004370DF /* ACIMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DDF33F15D86999004370DF /* ACIMAppDelegate.m */; };
+		24DDF34315D86999004370DF /* ACIM___365.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24DDF34115D86999004370DF /* ACIM___365.xcdatamodeld */; };
+		24DDF34B15D86999004370DF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DDF34A15D86999004370DF /* SenTestingKit.framework */; };
+		24DDF34C15D86999004370DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DDF32D15D86999004370DF /* UIKit.framework */; };
+		24DDF34D15D86999004370DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DDF32F15D86999004370DF /* Foundation.framework */; };
+		24DDF34E15D86999004370DF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DDF33315D86999004370DF /* CoreData.framework */; };
+		24DDF35615D86999004370DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24DDF35415D86999004370DF /* InfoPlist.strings */; };
+		24DDF35915D86999004370DF /* ACIM___365Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DDF35815D86999004370DF /* ACIM___365Tests.m */; };
+		24DDF36D15D86A93004370DF /* Miracle.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DDF36C15D86A93004370DF /* Miracle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24DDF34F15D86999004370DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24DDF32015D86999004370DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24DDF32815D86999004370DF;
+			remoteInfo = "ACIM - 365";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DDF32915D86999004370DF /* ACIM - 365.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ACIM - 365.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DDF32D15D86999004370DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		24DDF32F15D86999004370DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24DDF33115D86999004370DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		24DDF33315D86999004370DF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		24DDF33715D86999004370DF /* ACIM - 365-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ACIM - 365-Info.plist"; sourceTree = "<group>"; };
+		24DDF33915D86999004370DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24DDF33B15D86999004370DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24DDF33D15D86999004370DF /* ACIM - 365-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACIM - 365-Prefix.pch"; sourceTree = "<group>"; };
+		24DDF33E15D86999004370DF /* ACIMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACIMAppDelegate.h; sourceTree = "<group>"; };
+		24DDF33F15D86999004370DF /* ACIMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACIMAppDelegate.m; sourceTree = "<group>"; };
+		24DDF34215D86999004370DF /* ACIM___365.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ACIM___365.xcdatamodel"; sourceTree = "<group>"; };
+		24DDF34915D86999004370DF /* ACIM - 365Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ACIM - 365Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DDF34A15D86999004370DF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		24DDF35315D86999004370DF /* ACIM - 365Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ACIM - 365Tests-Info.plist"; sourceTree = "<group>"; };
+		24DDF35515D86999004370DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24DDF35715D86999004370DF /* ACIM___365Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACIM___365Tests.h"; sourceTree = "<group>"; };
+		24DDF35815D86999004370DF /* ACIM___365Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ACIM___365Tests.m"; sourceTree = "<group>"; };
+		24DDF36B15D86A93004370DF /* Miracle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Miracle.h; sourceTree = "<group>"; };
+		24DDF36C15D86A93004370DF /* Miracle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Miracle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24DDF32615D86999004370DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DDF32E15D86999004370DF /* UIKit.framework in Frameworks */,
+				24DDF33015D86999004370DF /* Foundation.framework in Frameworks */,
+				24DDF33215D86999004370DF /* CoreGraphics.framework in Frameworks */,
+				24DDF33415D86999004370DF /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DDF34515D86999004370DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DDF34B15D86999004370DF /* SenTestingKit.framework in Frameworks */,
+				24DDF34C15D86999004370DF /* UIKit.framework in Frameworks */,
+				24DDF34D15D86999004370DF /* Foundation.framework in Frameworks */,
+				24DDF34E15D86999004370DF /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24DDF31E15D86999004370DF = {
+			isa = PBXGroup;
+			children = (
+				24DDF33515D86999004370DF /* ACIM - 365 */,
+				24DDF35115D86999004370DF /* ACIM - 365Tests */,
+				24DDF32C15D86999004370DF /* Frameworks */,
+				24DDF32A15D86999004370DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24DDF32A15D86999004370DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24DDF32915D86999004370DF /* ACIM - 365.app */,
+				24DDF34915D86999004370DF /* ACIM - 365Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24DDF32C15D86999004370DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24DDF32D15D86999004370DF /* UIKit.framework */,
+				24DDF32F15D86999004370DF /* Foundation.framework */,
+				24DDF33115D86999004370DF /* CoreGraphics.framework */,
+				24DDF33315D86999004370DF /* CoreData.framework */,
+				24DDF34A15D86999004370DF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24DDF33515D86999004370DF /* ACIM - 365 */ = {
+			isa = PBXGroup;
+			children = (
+				24DDF33E15D86999004370DF /* ACIMAppDelegate.h */,
+				24DDF36B15D86A93004370DF /* Miracle.h */,
+				24DDF36C15D86A93004370DF /* Miracle.m */,
+				24DDF33F15D86999004370DF /* ACIMAppDelegate.m */,
+				24DDF34115D86999004370DF /* ACIM___365.xcdatamodeld */,
+				24DDF33615D86999004370DF /* Supporting Files */,
+			);
+			path = "ACIM - 365";
+			sourceTree = "<group>";
+		};
+		24DDF33615D86999004370DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24DDF33715D86999004370DF /* ACIM - 365-Info.plist */,
+				24DDF33815D86999004370DF /* InfoPlist.strings */,
+				24DDF33B15D86999004370DF /* main.m */,
+				24DDF33D15D86999004370DF /* ACIM - 365-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24DDF35115D86999004370DF /* ACIM - 365Tests */ = {
+			isa = PBXGroup;
+			children = (
+				24DDF35715D86999004370DF /* ACIM___365Tests.h */,
+				24DDF35815D86999004370DF /* ACIM___365Tests.m */,
+				24DDF35215D86999004370DF /* Supporting Files */,
+			);
+			path = "ACIM - 365Tests";
+			sourceTree = "<group>";
+		};
+		24DDF35215D86999004370DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24DDF35315D86999004370DF /* ACIM - 365Tests-Info.plist */,
+				24DDF35415D86999004370DF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24DDF32815D86999004370DF /* ACIM - 365 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24DDF35C15D86999004370DF /* Build configuration list for PBXNativeTarget "ACIM - 365" */;
+			buildPhases = (
+				24DDF32515D86999004370DF /* Sources */,
+				24DDF32615D86999004370DF /* Frameworks */,
+				24DDF32715D86999004370DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ACIM - 365";
+			productName = "ACIM - 365";
+			productReference = 24DDF32915D86999004370DF /* ACIM - 365.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24DDF34815D86999004370DF /* ACIM - 365Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24DDF35F15D86999004370DF /* Build configuration list for PBXNativeTarget "ACIM - 365Tests" */;
+			buildPhases = (
+				24DDF34415D86999004370DF /* Sources */,
+				24DDF34515D86999004370DF /* Frameworks */,
+				24DDF34615D86999004370DF /* Resources */,
+				24DDF34715D86999004370DF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24DDF35015D86999004370DF /* PBXTargetDependency */,
+			);
+			name = "ACIM - 365Tests";
+			productName = "ACIM - 365Tests";
+			productReference = 24DDF34915D86999004370DF /* ACIM - 365Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24DDF32015D86999004370DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 24DDF32315D86999004370DF /* Build configuration list for PBXProject "ACIM - 365" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24DDF31E15D86999004370DF;
+			productRefGroup = 24DDF32A15D86999004370DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24DDF32815D86999004370DF /* ACIM - 365 */,
+				24DDF34815D86999004370DF /* ACIM - 365Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24DDF32715D86999004370DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DDF33A15D86999004370DF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DDF34615D86999004370DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DDF35615D86999004370DF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24DDF34715D86999004370DF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24DDF32515D86999004370DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DDF33C15D86999004370DF /* main.m in Sources */,
+				24DDF34015D86999004370DF /* ACIMAppDelegate.m in Sources */,
+				24DDF34315D86999004370DF /* ACIM___365.xcdatamodeld in Sources */,
+				24DDF36D15D86A93004370DF /* Miracle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DDF34415D86999004370DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DDF35915D86999004370DF /* ACIM___365Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24DDF35015D86999004370DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24DDF32815D86999004370DF /* ACIM - 365 */;
+			targetProxy = 24DDF34F15D86999004370DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24DDF33815D86999004370DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24DDF33915D86999004370DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		24DDF35415D86999004370DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24DDF35515D86999004370DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24DDF35A15D86999004370DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24DDF35B15D86999004370DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24DDF35D15D86999004370DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACIM - 365/ACIM - 365-Prefix.pch";
+				INFOPLIST_FILE = "ACIM - 365/ACIM - 365-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		24DDF35E15D86999004370DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACIM - 365/ACIM - 365-Prefix.pch";
+				INFOPLIST_FILE = "ACIM - 365/ACIM - 365-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		24DDF36015D86999004370DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ACIM - 365.app/ACIM - 365";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACIM - 365/ACIM - 365-Prefix.pch";
+				INFOPLIST_FILE = "ACIM - 365Tests/ACIM - 365Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		24DDF36115D86999004370DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ACIM - 365.app/ACIM - 365";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACIM - 365/ACIM - 365-Prefix.pch";
+				INFOPLIST_FILE = "ACIM - 365Tests/ACIM - 365Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24DDF32315D86999004370DF /* Build configuration list for PBXProject "ACIM - 365" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DDF35A15D86999004370DF /* Debug */,
+				24DDF35B15D86999004370DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24DDF35C15D86999004370DF /* Build configuration list for PBXNativeTarget "ACIM - 365" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DDF35D15D86999004370DF /* Debug */,
+				24DDF35E15D86999004370DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24DDF35F15D86999004370DF /* Build configuration list for PBXNativeTarget "ACIM - 365Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DDF36015D86999004370DF /* Debug */,
+				24DDF36115D86999004370DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		24DDF34115D86999004370DF /* ACIM___365.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				24DDF34215D86999004370DF /* ACIM___365.xcdatamodel */,
+			);
+			currentVersion = 24DDF34215D86999004370DF /* ACIM___365.xcdatamodel */;
+			path = "ACIM___365.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 24DDF32015D86999004370DF /* Project object */;
+}

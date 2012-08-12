@@ -33,6 +33,20 @@
 			remoteGlobalIDString = 24C8EF4415CE09C300EE6873;
 			remoteInfo = "ACIM - Daily Lessons from spiritual ear";
 		};
+		24DDF36715D8699A004370DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24DDF36215D86999004370DF /* ACIM - 365.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24DDF32915D86999004370DF;
+			remoteInfo = "ACIM - 365";
+		};
+		24DDF36915D8699A004370DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24DDF36215D86999004370DF /* ACIM - 365.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24DDF34915D86999004370DF;
+			remoteInfo = "ACIM - 365Tests";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +74,7 @@
 		24C8EF7A15CE09C400EE6873 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24C8EF7C15CE09C400EE6873 /* ACIM___Daily_Lessons_from_spiritual_earTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACIM___Daily_Lessons_from_spiritual_earTests.h"; sourceTree = "<group>"; };
 		24C8EF7D15CE09C400EE6873 /* ACIM___Daily_Lessons_from_spiritual_earTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ACIM___Daily_Lessons_from_spiritual_earTests.m"; sourceTree = "<group>"; };
+		24DDF36215D86999004370DF /* ACIM - 365.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "ACIM - 365.xcodeproj"; path = "ACIM - 365/ACIM - 365.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +104,7 @@
 		24C8EF3A15CE09C300EE6873 = {
 			isa = PBXGroup;
 			children = (
+				24DDF36215D86999004370DF /* ACIM - 365.xcodeproj */,
 				24C8EF4F15CE09C400EE6873 /* ACIM - Daily Lessons from spiritual ear */,
 				24C8EF7615CE09C400EE6873 /* ACIM - Daily Lessons from spiritual earTests */,
 				24C8EF4815CE09C400EE6873 /* Frameworks */,
@@ -164,6 +180,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		24DDF36315D86999004370DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24DDF36815D8699A004370DF /* ACIM - 365.app */,
+				24DDF36A15D8699A004370DF /* ACIM - 365Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -221,6 +246,12 @@
 			mainGroup = 24C8EF3A15CE09C300EE6873;
 			productRefGroup = 24C8EF4615CE09C400EE6873 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 24DDF36315D86999004370DF /* Products */;
+					ProjectRef = 24DDF36215D86999004370DF /* ACIM - 365.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				24C8EF4415CE09C300EE6873 /* ACIM - Daily Lessons from spiritual ear */,
@@ -228,6 +259,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		24DDF36815D8699A004370DF /* ACIM - 365.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "ACIM - 365.app";
+			remoteRef = 24DDF36715D8699A004370DF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		24DDF36A15D8699A004370DF /* ACIM - 365Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ACIM - 365Tests.octest";
+			remoteRef = 24DDF36915D8699A004370DF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		24C8EF4315CE09C300EE6873 /* Resources */ = {
@@ -455,6 +503,7 @@
 				24C8EF8315CE09C400EE6873 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24C8EF8415CE09C400EE6873 /* Build configuration list for PBXNativeTarget "ACIM - Daily Lessons from spiritual earTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +512,7 @@
 				24C8EF8615CE09C400EE6873 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
